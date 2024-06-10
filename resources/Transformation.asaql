@@ -1,0 +1,6 @@
+/*
+Here are links to help you get started with Stream Analytics Query Language:
+Common query patterns - https://go.microsoft.com/fwLink/?LinkID=619153
+Query language - https://docs.microsoft.com/stream-analytics-query/query-language-elements-azure-stream-analytics
+*/
+SELECT input.TempratureCelcius [TemperatureCelcius], input.SensorId [SensorId] INTO [output] FROM [input]
